@@ -1,5 +1,5 @@
 # https://quay.io/repository/jupyterhub/repo2docker?tab=tags
-FROM quay.io/jupyterhub/repo2docker:2023.06.0-78.ga20dd1c@sha256:7ffa7a5d29942403d10524f933e7742d6d5f0835a82489e1978ffcf85df306e5
+FROM quay.io/jupyterhub/repo2docker:main
 
 RUN apk add --no-cache curl build-base python3 python3-dev py3-pip
 
